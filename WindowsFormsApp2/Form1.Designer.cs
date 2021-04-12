@@ -1,4 +1,3 @@
-
 namespace WindowsFormsApp2
 {
     partial class Form1
@@ -29,9 +28,9 @@ namespace WindowsFormsApp2
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label1 = new System.Windows.Forms.Label();
@@ -41,10 +40,6 @@ namespace WindowsFormsApp2
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
-            this.guna2CircleProgressBar1 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
-            this.guna2CircleProgressBar2 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
-            this.guna2CircleProgressBar3 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
-            this.guna2CircleProgressBar4 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
@@ -55,24 +50,24 @@ namespace WindowsFormsApp2
             this.chart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(22)))), ((int)(((byte)(30)))));
             this.chart1.BackSecondaryColor = System.Drawing.Color.Transparent;
             this.chart1.BorderlineColor = System.Drawing.Color.Transparent;
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
+            chartArea5.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea5);
+            legend5.Name = "Legend1";
+            this.chart1.Legends.Add(legend5);
             this.chart1.Location = new System.Drawing.Point(12, 75);
             this.chart1.Name = "chart1";
-            series3.BackImageTransparentColor = System.Drawing.Color.Black;
-            series3.BackSecondaryColor = System.Drawing.Color.Transparent;
-            series3.BorderColor = System.Drawing.Color.Transparent;
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
-            series3.Color = System.Drawing.Color.Transparent;
-            series3.LabelBackColor = System.Drawing.Color.Transparent;
-            series3.Legend = "Legend1";
-            series3.MarkerBorderColor = System.Drawing.Color.Transparent;
-            series3.MarkerColor = System.Drawing.Color.Transparent;
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
+            series5.BackImageTransparentColor = System.Drawing.Color.Black;
+            series5.BackSecondaryColor = System.Drawing.Color.Transparent;
+            series5.BorderColor = System.Drawing.Color.Transparent;
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Pie;
+            series5.Color = System.Drawing.Color.Transparent;
+            series5.LabelBackColor = System.Drawing.Color.Transparent;
+            series5.Legend = "Legend1";
+            series5.MarkerBorderColor = System.Drawing.Color.Transparent;
+            series5.MarkerColor = System.Drawing.Color.Transparent;
+            series5.Name = "Series1";
+            this.chart1.Series.Add(series5);
             this.chart1.Size = new System.Drawing.Size(373, 237);
             this.chart1.TabIndex = 0;
             this.chart1.Text = "chart1";
@@ -150,87 +145,12 @@ namespace WindowsFormsApp2
             this.label4.TabIndex = 7;
             this.label4.Text = "% de Personas completamente vacunadas de acuerdo a su población";
             // 
-            // guna2CircleProgressBar1
-            // 
-            this.guna2CircleProgressBar1.FillThickness = 10;
-            this.guna2CircleProgressBar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleProgressBar1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2CircleProgressBar1.Location = new System.Drawing.Point(497, 436);
-            this.guna2CircleProgressBar1.Name = "guna2CircleProgressBar1";
-            this.guna2CircleProgressBar1.ProgressColor = System.Drawing.Color.CornflowerBlue;
-            this.guna2CircleProgressBar1.ProgressColor2 = System.Drawing.Color.CornflowerBlue;
-            this.guna2CircleProgressBar1.ProgressThickness = 13;
-            this.guna2CircleProgressBar1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleProgressBar1.ShadowDecoration.Parent = this.guna2CircleProgressBar1;
-            this.guna2CircleProgressBar1.ShowPercentage = true;
-            this.guna2CircleProgressBar1.Size = new System.Drawing.Size(80, 84);
-            this.guna2CircleProgressBar1.TabIndex = 11;
-            this.guna2CircleProgressBar1.Value = 1;
-            // 
-            // guna2CircleProgressBar2
-            // 
-            this.guna2CircleProgressBar2.FillThickness = 10;
-            this.guna2CircleProgressBar2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleProgressBar2.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2CircleProgressBar2.Location = new System.Drawing.Point(610, 436);
-            this.guna2CircleProgressBar2.Name = "guna2CircleProgressBar2";
-            this.guna2CircleProgressBar2.ProgressBrushMode = Guna.UI2.WinForms.Enums.BrushMode.Solid;
-            this.guna2CircleProgressBar2.ProgressColor = System.Drawing.Color.DarkOrange;
-            this.guna2CircleProgressBar2.ProgressColor2 = System.Drawing.Color.CornflowerBlue;
-            this.guna2CircleProgressBar2.ProgressThickness = 13;
-            this.guna2CircleProgressBar2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleProgressBar2.ShadowDecoration.Parent = this.guna2CircleProgressBar2;
-            this.guna2CircleProgressBar2.ShowPercentage = true;
-            this.guna2CircleProgressBar2.Size = new System.Drawing.Size(80, 84);
-            this.guna2CircleProgressBar2.TabIndex = 12;
-            this.guna2CircleProgressBar2.Value = 19;
-            // 
-            // guna2CircleProgressBar3
-            // 
-            this.guna2CircleProgressBar3.FillThickness = 10;
-            this.guna2CircleProgressBar3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleProgressBar3.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2CircleProgressBar3.Location = new System.Drawing.Point(715, 435);
-            this.guna2CircleProgressBar3.Name = "guna2CircleProgressBar3";
-            this.guna2CircleProgressBar3.ProgressBrushMode = Guna.UI2.WinForms.Enums.BrushMode.Solid;
-            this.guna2CircleProgressBar3.ProgressColor = System.Drawing.Color.SkyBlue;
-            this.guna2CircleProgressBar3.ProgressColor2 = System.Drawing.Color.CornflowerBlue;
-            this.guna2CircleProgressBar3.ProgressThickness = 13;
-            this.guna2CircleProgressBar3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleProgressBar3.ShadowDecoration.Parent = this.guna2CircleProgressBar3;
-            this.guna2CircleProgressBar3.ShowPercentage = true;
-            this.guna2CircleProgressBar3.Size = new System.Drawing.Size(80, 84);
-            this.guna2CircleProgressBar3.TabIndex = 13;
-            this.guna2CircleProgressBar3.Value = 5;
-            // 
-            // guna2CircleProgressBar4
-            // 
-            this.guna2CircleProgressBar4.FillThickness = 10;
-            this.guna2CircleProgressBar4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2CircleProgressBar4.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.guna2CircleProgressBar4.Location = new System.Drawing.Point(823, 436);
-            this.guna2CircleProgressBar4.Name = "guna2CircleProgressBar4";
-            this.guna2CircleProgressBar4.ProgressBrushMode = Guna.UI2.WinForms.Enums.BrushMode.Solid;
-            this.guna2CircleProgressBar4.ProgressColor = System.Drawing.Color.Yellow;
-            this.guna2CircleProgressBar4.ProgressColor2 = System.Drawing.Color.CornflowerBlue;
-            this.guna2CircleProgressBar4.ProgressThickness = 13;
-            this.guna2CircleProgressBar4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CircleProgressBar4.ShadowDecoration.Parent = this.guna2CircleProgressBar4;
-            this.guna2CircleProgressBar4.ShowPercentage = true;
-            this.guna2CircleProgressBar4.Size = new System.Drawing.Size(80, 84);
-            this.guna2CircleProgressBar4.TabIndex = 14;
-            this.guna2CircleProgressBar4.Value = 3;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(22)))), ((int)(((byte)(30)))));
             this.ClientSize = new System.Drawing.Size(934, 546);
-            this.Controls.Add(this.guna2CircleProgressBar4);
-            this.Controls.Add(this.guna2CircleProgressBar3);
-            this.Controls.Add(this.guna2CircleProgressBar2);
-            this.Controls.Add(this.guna2CircleProgressBar1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label3);
@@ -260,8 +180,6 @@ namespace WindowsFormsApp2
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label4;
-        private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar1;
-        private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar2;
-        private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar3;
-        private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar4;
     }
+}
+
